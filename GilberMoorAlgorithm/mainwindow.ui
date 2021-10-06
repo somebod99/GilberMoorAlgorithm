@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>807</width>
+    <height>706</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>807</width>
+    <height>706</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>807</width>
+    <height>706</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>GilberMoorAlgorithm</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>807</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Функции</string>
+    </property>
+    <addaction name="encode"/>
+    <addaction name="decode"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <action name="encode">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Кодирование</string>
+   </property>
+  </action>
+  <action name="decode">
+   <property name="text">
+    <string>Декодирование</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
